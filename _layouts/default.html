@@ -1,5 +1,13 @@
+---
+#maybe want to use an array of hashes instead
+navbar_items:
+- [About, /]
+- [Projects, /projects]
+- [Resume, /resume]
+---
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
@@ -7,10 +15,8 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <div class = "center-block container-fluid" id = "content">
+      {{ content }}
     </div>
 
     {% include footer.html %}
