@@ -6512,6 +6512,9 @@ input[type="checkbox"],
 .carousel-caption h1, .carousel-caption h2, .carousel-caption h3, .carousel-caption h4, .carousel-caption h5, .carousel-caption h6 {
   color: inherit; }
 
+html, body {
+  height: 100%; }
+
 .fade-in {
   visibility: hidden; }
 
@@ -6523,10 +6526,17 @@ input[type="checkbox"],
   margin-top: -10px;
   margin-bottom: -10px; }
 
+#content {
+  min-height: -webkit-calc(100% - 33px - 64px - 110px);
+  min-height: -moz-calc(100% - 33px - 64px - 110px);
+  min-height: calc(100% - 33px - 64px - 110px); }
+
 #contact-list {
   text-align: center; }
 
 #footer {
+  height: 110px;
+  width: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   border-top: 1px solid rgba(206, 206, 206, 0.5);
   margin-top: 10px;
@@ -6552,5 +6562,8 @@ input[type="checkbox"],
 .btn-social.active {
   color: #fff;
   background: #666; }
+
+iframe {
+  border: 1px solid rgba(206, 206, 206, 0.5); }
 
 /*# sourceMappingURL=global.css.map */
