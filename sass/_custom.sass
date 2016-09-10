@@ -1,5 +1,5 @@
 $light-border : 1px solid rgba(206, 206, 206, 0.5)
-$footer-height : 110px
+$footer-height : 120px
 
 html, body
 	height: 100%
@@ -19,9 +19,9 @@ html, body
 
 #content
 	//due to accounted margin
-	min-height: -webkit-calc(100% - 33px - #{$navbar-height} - #{$footer-height})
-	min-height: -moz-calc(100% - 33px - #{$navbar-height} - #{$footer-height})
-	min-height: calc(100% - 33px - #{$navbar-height} - #{$footer-height})
+	min-height: -webkit-calc(100% - 39px - #{$navbar-height} - #{$footer-height})
+	min-height: -moz-calc(100% - 39px - #{$navbar-height} - #{$footer-height})
+	min-height: calc(100% - 39px - #{$navbar-height} - #{$footer-height})
 
 #contact-list
 	text-align: center
@@ -57,3 +57,9 @@ html, body
 
 iframe
 	border: $light-border
+
+#project-wrapper
+	margin: 5px 20px
+
+.project-links
+	float: right
