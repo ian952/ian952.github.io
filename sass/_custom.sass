@@ -1,3 +1,9 @@
+$light-border : 1px solid rgba(206, 206, 206, 0.5)
+$footer-height : 120px
+$magic-content-offset: 53px
+
+html, body
+	height: 100%
 
 .fade-in
 	visibility: hidden
@@ -12,12 +18,20 @@
 	margin-top: $navbar-brand-img-vertical-margin
 	margin-bottom: $navbar-brand-img-vertical-margin
 
+#content
+	//due to accounted margin
+	min-height: -webkit-calc(100% - #{$magic-content-offset} - #{$navbar-height} - #{$footer-height})
+	min-height: -moz-calc(100% - #{$magic-content-offset} - #{$navbar-height} - #{$footer-height})
+	min-height: calc(100% - #{$magic-content-offset} - #{$navbar-height} - #{$footer-height})
+
 #contact-list
 	text-align: center
 
 #footer
+	min-height: $footer-height
+	width: 100%
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3)
-	border-top: 1px solid rgba(206, 206, 206, 0.5)
+	border-top: $light-border
 	margin-top: 10px
 	padding-top: 10px
 
@@ -41,3 +55,12 @@
 .btn-social.active 
 	color: #fff
 	background: $gray
+
+iframe
+	border: $light-border
+
+#project-wrapper
+	margin: 5px 20px
+
+.project-links
+	float: right
