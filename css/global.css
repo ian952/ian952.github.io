@@ -6527,15 +6527,15 @@ html, body {
   margin-bottom: -10px; }
 
 #content {
-  min-height: -webkit-calc(100% - 39px - 64px - 120px);
-  min-height: -moz-calc(100% - 39px - 64px - 120px);
-  min-height: calc(100% - 39px - 64px - 120px); }
+  min-height: -webkit-calc(100% - 53px - 64px - 120px);
+  min-height: -moz-calc(100% - 53px - 64px - 120px);
+  min-height: calc(100% - 53px - 64px - 120px); }
 
 #contact-list {
   text-align: center; }
 
 #footer {
-  height: 120px;
+  min-height: 120px;
   width: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   border-top: 1px solid rgba(206, 206, 206, 0.5);

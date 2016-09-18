@@ -1,5 +1,6 @@
 $light-border : 1px solid rgba(206, 206, 206, 0.5)
 $footer-height : 120px
+$magic-content-offset: 53px
 
 html, body
 	height: 100%
@@ -19,15 +20,15 @@ html, body
 
 #content
 	//due to accounted margin
-	min-height: -webkit-calc(100% - 39px - #{$navbar-height} - #{$footer-height})
-	min-height: -moz-calc(100% - 39px - #{$navbar-height} - #{$footer-height})
-	min-height: calc(100% - 39px - #{$navbar-height} - #{$footer-height})
+	min-height: -webkit-calc(100% - #{$magic-content-offset} - #{$navbar-height} - #{$footer-height})
+	min-height: -moz-calc(100% - #{$magic-content-offset} - #{$navbar-height} - #{$footer-height})
+	min-height: calc(100% - #{$magic-content-offset} - #{$navbar-height} - #{$footer-height})
 
 #contact-list
 	text-align: center
 
 #footer
-	height: $footer-height
+	min-height: $footer-height
 	width: 100%
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3)
 	border-top: $light-border
