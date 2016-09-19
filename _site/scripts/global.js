@@ -27,7 +27,7 @@ $(document).ready (function() {
 
 	checkContactListFadeIn();
 
-	$(window).scroll( function(){
+	$(window).scroll(function(){
       	      
 		checkContactListFadeIn();            
     
