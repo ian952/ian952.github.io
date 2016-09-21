@@ -8729,7 +8729,10 @@ html, body {
   padding-top: 10px; }
 
 .bigger-text {
-  font-size: 20px; }
+  font-size: 26px; }
+
+.name-text {
+  font-size: 64px; }
 
 .btn-social,
 .btn-social:focus {
@@ -8757,5 +8760,12 @@ iframe {
 
 .project-links {
   float: right; }
+
+@media (min-width: 1200px) {
+  .bigger-text {
+    font-size: 32px; }
+
+  .name-text {
+    font-size: 84px; } }
 
 /*# sourceMappingURL=global.css.map */
