@@ -8706,6 +8706,9 @@ html, body {
 .inline-block {
   display: inline-block !important; }
 
+#profile-photo {
+  width: 275px; }
+
 #navbar-brand-img {
   height: 49px;
   margin-top: -10px;
@@ -8728,10 +8731,10 @@ html, body {
   padding-top: 10px; }
 
 .bigger-text {
-  font-size: 26px; }
+  font-size: 18px; }
 
 .name-text {
-  font-size: 64px;
+  font-size: 40px;
   margin-top: 5px;
   margin-bottom: 5px; }
 
@@ -8764,9 +8767,9 @@ iframe {
 
 @media (min-width: 1200px) {
   .bigger-text {
-    font-size: 30px; }
+    font-size: 20px; }
 
   .name-text {
-    font-size: 80px; } }
+    font-size: 48px; } }
 
 /*# sourceMappingURL=global.css.map */
