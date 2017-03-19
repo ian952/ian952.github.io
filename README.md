@@ -1,7 +1,7 @@
 # ian952.github.io
 Personal Website
 
-##Build
+## Build
 ```
 bash sass-build.sh
 bash jekyll-build.sh
