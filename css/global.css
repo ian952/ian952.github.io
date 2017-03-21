@@ -8710,9 +8710,9 @@ html, body {
   width: 275px; }
 
 #navbar-brand-img {
-  height: 49px;
-  margin-top: -10px;
-  margin-bottom: -10px; }
+  height: 39px;
+  margin-top: -5px;
+  margin-bottom: -5px; }
 
 #content {
   min-height: -webkit-calc(100% - 53px - 64px - 120px);
