@@ -16,3 +16,6 @@ github_username:  ian952
 
 # Build settings
 markdown: kramdown
+
+sass:
+  style: compressed
