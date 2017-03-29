@@ -17,5 +17,8 @@ github_username:  ian952
 # Build settings
 markdown: kramdown
 
+collections:
+  - project_collection
+
 sass:
   style: compressed
