@@ -3,8 +3,7 @@ Personal Website
 
 ## Build
 ```
-bash sass-build.sh
-bash jekyll-build.sh
+./jekyll-build.sh
 ```
 
 The site is on ```localhost:4000```
