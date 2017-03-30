@@ -1,0 +1,23 @@
+---
+name: Scala Compiler
+lead: A compiler written in Scala, which compiled a subset of Scala into MIPS.
+description: 'For my CS241e - Enriched Foundations of Sequential Programs course, I built a compiler that parsed a subset of Scala all the way down to MIPS assembly instructions. The compiler consisted of multiple parts, including:'
+order: 5
+---
+<ul>
+  <li>
+    A simple semispace garbage collector which implemented Cheney's algorithm.
+  </li>
+  <li>
+    A typer which performed type inference and validation.
+  </li>
+  <li>
+    A parser using Cocke-Younger-Kasami algorithm that created a parse tree given the input tokens and the grammar.
+  </li>
+  <li>
+    A maximal munch scanner which parsed input into tokens given a deterministic finite automaton. 
+  </li>
+  <li>
+    An assembler which transformed abstractions such as closures, control structures, variables, and expressions into machine code.
+  </li>
+</ul>
