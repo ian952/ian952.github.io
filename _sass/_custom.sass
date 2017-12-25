@@ -4,7 +4,7 @@ $magic-content-offset: 53px
 
 html, body
 	height: 100%
-	
+
 .fade-in
 	visibility: hidden
 
@@ -35,6 +35,7 @@ html, body
 
 #contact-list
 	text-align: center
+	margin-bottom: 5px
 
 #footer
 	min-height: $footer-height
@@ -49,21 +50,24 @@ html, body
 	margin-top: 5px
 	margin-bottom: 5px
 
+$btn-social-dim : 45px
+$btn-social-border-width: 2px
+
 .btn-social,
 .btn-social:focus
 	display: inline-block
-	width: 50px
-	height: 50px
+	width: $btn-social-dim
+	height: $btn-social-dim
 	color: $gray
-	border: 2px solid $gray
+	border: $btn-social-border-width solid $gray
 	border-radius: 100%
 	text-align: center
 	font-size: 20px
-	line-height: 45px
+	line-height: $btn-social-dim - 2 * $btn-social-border-width
 
 .btn-social:hover,
 .btn-social:active,
-.btn-social.active 
+.btn-social.active
 	color: #fff
 	background: $gray
 
