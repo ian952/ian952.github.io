@@ -5,7 +5,7 @@ permalink: /projects
 navbar_highlight: Projects
 
 #css:
-#javascript: 
+#javascript:
 ---
 <div id = "project-wrapper">
 	{% assign projects = site.project_collection | sort: 'order' %}
@@ -26,8 +26,10 @@ navbar_highlight: Projects
 		<div class = "panel-body">
 			<p class="lead">{{ project.lead }}</p>
 			<hr/>
-			<p>{{ project.description }}</p>
-			{{ project.content }}
+			<div class = "description">
+				<p>{{ project.description }}</p>
+				{{ project.content }}
+			</div>
 		</div>
 	</div>
 	{% endfor %}
